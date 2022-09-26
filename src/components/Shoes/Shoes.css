@@ -1,0 +1,28 @@
+.shopContainer{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 100px;
+}
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    margin-left: 100px;
+}
+.productContainer img{
+    width: 286px;
+    height: 286px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+
+.clearBtn{
+    background-color: rgb(255, 208, 119);
+    border: none;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}

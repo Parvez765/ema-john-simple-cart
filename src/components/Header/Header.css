@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1C2B35;
+    height: 80px;
+    justify-content: space-between;
+   
+}
+.headImg{
+    margin-left: 100px;
+}
+
+.list{
+    margin-right: 100px;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+    transition: 0.5s ease;
+    
+}
+
+.list a:hover{
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
